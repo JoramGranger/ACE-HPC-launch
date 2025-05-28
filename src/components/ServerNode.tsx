@@ -70,7 +70,7 @@ const ServerNode = ({ nodeId, isActive }: ServerNodeProps) => {
       <Server 
         className={`w-6 h-6 mb-1 ${status === 'offline' ? 'text-gray-500' : 'text-white'}`} 
       />
-      <div className="text-xs font-mono text-gray-300 mb-1">Node-{String(nodeId).padStart(2, '0')}</div>
+      <div className="text-xs font-mono text-gray-300 mb-1">kla-ac-cpu-{String(nodeId).padStart(2, '0')}</div>
       <div className="flex items-center justify-center gap-1 mt-1">
         <div 
           className={`w-2 h-2 rounded-full ${statusColors[status]} shadow-lg ${

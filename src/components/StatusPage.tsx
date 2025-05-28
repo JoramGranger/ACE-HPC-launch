@@ -73,9 +73,9 @@ const StatusPage = () => {
                   color="red" 
                 />
                 <CircularProgressMeter 
-                  title="Total Cores Active" 
+                  title="Total CPUs Active" 
                   value={totalCores} 
-                  maxValue={3584} 
+                  maxValue={15232} 
                   unit=""
                   color="blue" 
                 />
@@ -89,7 +89,7 @@ const StatusPage = () => {
                 <CircularProgressMeter 
                   title="Storage Capacity" 
                   value={storageCapacity} 
-                  maxValue={1.5} 
+                  maxValue={0.5} 
                   unit="PB"
                   color="purple"
                   isStatic 

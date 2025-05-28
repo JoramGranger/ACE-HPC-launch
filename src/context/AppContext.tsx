@@ -21,7 +21,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [launchComplete, setLaunchComplete] = useState(false);
   
   // Storage capacity is static
-  const storageCapacity = 1.5;
+  const storageCapacity = 0.5;
 
   return (
     <AppContext.Provider
